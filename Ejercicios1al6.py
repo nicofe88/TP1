@@ -25,7 +25,7 @@ def calcular_mcm(a, b):
 """ Escribir un programa que reciba una cadena de caracteres y devuelva un diccionario con
 cada palabra que contiene y la cantidad de veces que aparece (frecuencia)."""
 
-def contar_alabras(cadena):
+def contar_letras(cadena):
     # Eliminar los caracteres especiales y convertir todo a minúsculas
     cadena = cadena.lower()
     caracteres_especiales = [',', '.', ';', ':', '!', '?', '(', ')', '[', ']', '{', '}', '\"', '\'']
